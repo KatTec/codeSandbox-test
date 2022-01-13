@@ -16,7 +16,10 @@ const onClickAdd = () => {
 
   // divタグの子要素に各要素を設定;
   div.appendChild(li);
-  console.log(div);
+  // console.log(div);
+
+  // 未完了リストに追加
+  document.getElementById("incomplete-list").appendChild(div);
 };
 
 document
